@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SAMUEL.exe" version="1.0.0.2" publicKeyToken="88a20f0391494250" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SAMUEL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SAMUEL.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SAMUEL.exe" size="11224">
+      <assemblyIdentity name="SAMUEL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jooQAVxOzDdC1vEs31YRsqs8ShXLgItIj1z2IiQkVFo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SAMUEL.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LT038\samuel.bolano" issuerKeyHash="5b1d9eaea21accb422aa1eb09a0c59afb17f9b3e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9hbQn+W5UMvIEYm6Rv8w6Om3UuBsfNbv3JdVCWgJGU4=</DigestValue></Reference></SignedInfo><SignatureValue>koVRLO66i/D5b9lZjkrLPlTjDLZK0wtxXAv2qyvm2tcCm72/5cFyMh4csnBlht38suwZ1rA9WyoSngkYOyvHpDtqLk3EJ3Jib8gMynMdG/32A2t8/4E5vMc3yEwYbGY5QYDEhjBNEaYoIJYJcFWGS5g2rR6ryIWOOnJjyZ9dxJs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qrIWwgXRO5alQEjVB3z+/CEOVPhDZTuG4o/1evmcy2+R35xbdlvoX43v2CuW1KSgLUHXMGAFuxJzRlE/7XyFRCLcYTQcQo/ufLGyo0s0OMB7sWH2+xWrSc0clbyMXjHrXzgDp3eZnq8cAymuq1H6YIkre4hwE3/BbujBPosycE0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4e190968095597dcefd67c6ce052b7e9e830ff46ba8911c8cb50b9e59fd016f6" Description="" Url=""><as:assemblyIdentity name="SAMUEL.exe" version="1.0.0.2" publicKeyToken="88a20f0391494250" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LT038\samuel.bolano</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SdHtJf4SlJ/0ja51JjRLIVKNLwM7qjhslLEDVV4vipI=</DigestValue></Reference></SignedInfo><SignatureValue>AUrffQudXHabk1gLm55Xpvj8XOZwEzVGiCc7Mkf42hfhHTCMc+6jhUwv525PMF2ibZCf6zI75yFaT03UxqmjeOgLXB1OwrCGPa1dr7uNN+3tHl2dfVLVj0ZXV6bZ9pTdMZBIU2w/KvN6GEvy0KPjFt9SFdQwQD3zhPkR1xCTbBs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qrIWwgXRO5alQEjVB3z+/CEOVPhDZTuG4o/1evmcy2+R35xbdlvoX43v2CuW1KSgLUHXMGAFuxJzRlE/7XyFRCLcYTQcQo/ufLGyo0s0OMB7sWH2+xWrSc0clbyMXjHrXzgDp3eZnq8cAymuq1H6YIkre4hwE3/BbujBPosycE0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQZALmv3Bh7IhLFkJJBGHYezANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYATABUADAAMwA4AFwAcwBhAG0AdQBlAGwALgBiAG8AbABhAG4AbzAeFw0yMjExMTkwNTAxNDFaFw0yMzExMTkxMTAxNDFaMDExLzAtBgNVBAMeJgBMAFQAMAAzADgAXABzAGEAbQB1AGUAbAAuAGIAbwBsAGEAbgBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqshbCBdE7lqVASNUHfP78IQ5U+ENlO4bij/V6+ZzLb5HfnFt2W+hfje/YK5bUpKAtQdcwYAW7EnNGUT/tfIVEItxhNBxCj+58sbKjSzQ4wHuxYfb7FatJzRyVvIxeMetfOAOnd5merxwDKa6rUfpgiSt7iHATf8Fu6ME+izJwTQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEHNvR+ODEuBU7tkBWujpbshduwroVyhbvEiPDlmOJ93XdF45q4iIu9G9a/+7fjySvrXTzSl4vNHVChIItQmjAUPDquMeqjQU4ZPSMhtyaHlDD0CYUT69TKMDRaXLxMhLDHiAQH0TKq/inUI/+4PpAZHt6c9TqDMWvVQruZ1nAjc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
